@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html",
-    "dist": "rimraf docs && npx parcel build index.html --public-url ./fraktur --out-dir docs"
+    "dist": "rimraf docs && npx parcel build index.html --public-url ./ --out-dir docs"
   },
   "author": "",
   "license": "MIT",
