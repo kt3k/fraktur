@@ -18,6 +18,6 @@ class Main {
   onInput() {
     const v = this.input!.value
     localStorage.input = v
-    this.result!.textContent = encode(v)
+    this.result!.textContent = v ? encode(v) : '-'
   }
 }
