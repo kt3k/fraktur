@@ -470,3 +470,7 @@ body > footer > ul > li {
   font-size: 12.8px;
   color: var(--c-dark-gray);
 }
+
+html {
+  background-color: var(--c-bg-base);
+}
